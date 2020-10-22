@@ -1,0 +1,158 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ /* navbar */
+
+ li {
+    display: inline-flex;
+    align-items: center;
+ }
+
+ .navbar {
+     background-color: aqua;
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+     margin: 0;
+     top: 0;
+ }
+
+ .navbar-items {
+    text-align: right;
+ }
+
+ #logo-van {
+     text-decoration: none;
+     list-style: none;
+     float: left;
+     margin-top: 10px;
+     font-weight: 400;
+     letter-spacing: 5px;
+
+ }
+
+ .list {
+     display: inline-block;
+     padding: 10px 30px;
+     font-weight: 100;
+ }
+
+/* hero */
+
+.hero-image {
+    position: relative;
+    background-image: url("..//resources/images/mat-reding-2LJQhWU1G8A-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 80%;
+}
+
+.hero-text {
+    position: relative;
+    color: #ffff00;
+    background-color: black;
+    max-width: 400px;
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 200px auto;
+    top: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-text span {
+      color: #ffffff;
+      font-weight: 600;
+  }
+
+  .hero-text p {
+      padding: 20px 20px;
+      text-align: center;
+  }
+
+  button {
+      background-color: #ffff00;
+      color: #000000;
+      font-size: 1.5rem;
+      text-decoration: none;
+      border: none;
+      font-weight: 100;
+      margin: 0 auto;
+      width: 400px;
+      padding: 20px 0;
+  }
+
+  .button {
+    display: flex;
+    margin: 280px auto;
+  }
+
+  button:hover {
+      background-color: #000000;
+      color: #ffff00;
+  }
+
+/* gallery */
+
+.gallery {
+    width: 100%;
+    text-align: center;
+    background-color: #ffff00;
+    padding: 20px 0;
+}
+
+.gallery-container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+img {
+    margin: 10px 10px;
+    width: 300px;
+    display: relative;
+}
+
+/* footer */
+
+.footer {
+    background-color: #000000;
+    padding: 10px 0;
+    color: aqua;
+}
+
+.footer-list {
+    text-align: center;
+}
+
+.footer-items {
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 651px) and (min-width: 480px) {
+    img {
+        width: 80%;
+    }
+    .list {
+        padding: 0 10px;
+    }
+
+    li {
+        align-items: center;
+    }
+
+}
